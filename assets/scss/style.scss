@@ -1,0 +1,65 @@
+// Nav
+
+.flex-auto {
+  flex: auto;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+@media (max-width: 878px) {
+  .navbar-nav .SignUp{
+    margin: 0 !important;
+  }
+}
+
+// Header Carousel\
+.carousel-control-prev,
+.carousel-control-next {
+  width: 3rem !important;
+  height: 3rem !important;
+  background-color: #000 !important;
+  border-radius: 50%;
+  top: 50% !important;
+  transform: translateY(-50%);
+  margin: 0 3rem;
+  border: 1px solid #fff !important;
+}
+
+.carousel-control-prev i,
+.carousel-control-next i {
+  font-size: 1.4rem;
+}
+
+@media (min-width: 1025px) {
+  #header-carusel {
+    width: 84vw !important;
+    margin: 0 auto !important;
+  }
+}
+// Header banner
+.header-banner {
+  position: absolute;
+  top: 5rem;
+  left: 6rem;
+  background-color: #fff;
+  max-width: 400px;
+  padding: 20px;
+  display: block;
+}
+
+.header-banner h4 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.header-banner p {
+  font-weight: 400;
+}
+
+// Testimonial Section
+
+section.testimonial .content{
+  height: 15rem;
+}
