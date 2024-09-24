@@ -70,6 +70,38 @@ section.courses .pane-title p{
   width: 80%;
 } 
 
+.carousel-cards {
+  .carousel-inner {
+    .carousel-item {
+      &-end.active,
+      &-next {
+        transform: translateX(25%);
+      }
+
+      &-start.active,
+      &-prev {
+        transform: translateX(-25%);
+      }
+
+      &.active,
+      &-next,
+      &-prev,
+      &-end {
+        display: flex;
+      }
+
+      &-end,
+      &-start {
+        transform: translateX(0);
+      }
+    }
+  }
+}
+
+.course-card{
+  padding: 0.5rem;
+}
+
 .course-image img{
   width: 100%;
 }
