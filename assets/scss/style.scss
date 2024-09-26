@@ -182,3 +182,32 @@ section.courses .pane-title p {
   transform: scale(1.05);
 }
 
+
+// Footer Section
+.footer-menu{
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+
+  ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: .9rem;
+
+    a{
+      text-decoration: none;
+      color: #fff;
+    }
+
+    a:hover{
+      color: lightgray;
+    }
+  }
+}
+
+.sub-footer{
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
