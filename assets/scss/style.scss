@@ -150,3 +150,35 @@ section.courses .pane-title p {
   font-weight: 500;
   padding: .2rem .5rem;
 }
+
+// Categories Section
+.catagories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.category {
+  display: grid;
+  flex: 1;
+  place-content: center;
+  margin: 0.5rem;
+  text-decoration: none;
+
+}
+
+.category-title {
+  font-weight: 500;
+  margin-top: 0.5rem;
+  color: #000;
+}
+
+.category-img img{
+  transition: transform 0.3s ease-in-out; 
+
+}
+
+.category-img img:hover {
+  transform: scale(1.05);
+}
+
